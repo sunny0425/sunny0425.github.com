@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Ping.Luo's Blog]]></title>
+  <link href="http://sunny0425.github.com/atom.xml" rel="self"/>
+  <link href="http://sunny0425.github.com/"/>
+  <updated>2012-08-08T20:32:19+08:00</updated>
+  <id>http://sunny0425.github.com/</id>
+  <author>
+    <name><![CDATA[Ping.Luo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Fork A Repo on Github]]></title>
+    <link href="http://sunny0425.github.com/blog/2012/08/08/fork-a-repo-on-github/"/>
+    <updated>2012-08-08T18:28:00+08:00</updated>
+    <id>http://sunny0425.github.com/blog/2012/08/08/fork-a-repo-on-github</id>
+    <content type="html"><![CDATA[<p>由 <a href="https://help.github.com/articles/fork-a-repo">Github Help</a> 写的这份总结。
+Fork 的流程总是忘记，在这里做个备忘，以供大家参考。</p>
+
+<p>以 &#8220;Spoon-Knife&#8221; 项目为例</p>
+
+<ul>
+<li>在需要 fork 的项目页面，点击 “Fork” 按钮</li>
+<li>clone 到本地</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git clone https://github.com/username/Spoon-Knife.git
+</span><span class='line'># Clones your fork of the repo into the current directory in terminal</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>clone之后，有个默认的远程仓库叫做 “origin” 指向到 Github 上你自己的 fork。而不是原始的远程仓库（ fork 源），为了保持和 fork 源一致，需要添加另一个远程仓库叫做 “upstream”。</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd Spoon-Knife
+</span><span class='line'># Changes the active directory in the prompt to the newly cloned "Spoon-Knife" directory
+</span><span class='line'>$ git remote add upstream https://github.com/octocat/Spoon-Knife.git
+</span><span class='line'># Assigns the original repo to a remote called "upstream"
+</span><span class='line'>$ git fetch upstream
+</span><span class='line'># Pulls in changes not present in your local repository, without modifying your files</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>在做了一些提交到你自己的本地代码库之后，push 到你自己的远程代码库：</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git push origin master
+</span><span class='line'># Pushes commits to your remote repo stored on GitHub</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>如果 fork 源代码库有更新，你可以把这些更新放到自己的 fork 的项目中</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git fetch upstream
+</span><span class='line'># Fetches any new changes from the original repo
+</span><span class='line'>$ git merge upstream/master
+</span><span class='line'># Merges any changes fetched into your working files</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>将代码提交到 Github 上你自己的项目</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git push origin master</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://sunny0425.github.com/blog/2012/08/08/title/"/>
+    <updated>2012-08-08T09:36:00+08:00</updated>
+    <id>http://sunny0425.github.com/blog/2012/08/08/title</id>
+    <content type="html"><![CDATA[<p>重新开个人博客，纪念一下，感谢台风“海葵”，感谢公司放假休息，早上还一不小心把自己锁起来了，挨了一早上的骂，台风把阳台上的一块玻璃吹下来了。</p>
+
+<p>不管这么样，此刻能安静的坐着弄点东西，真的非常不错！</p>
+
+<p>近期事情多多，个人&amp;公司，觉得自己性子还是有点急，更多的时候还需要认真思考，古人有云：学而不思则惘。向高手们学习！</p>
+]]></content>
+  </entry>
+  
+</feed>
