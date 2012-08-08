@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Ping.Luo's Blog]]></title>
+  <link href="http://sunny0425.github.com/atom.xml" rel="self"/>
+  <link href="http://sunny0425.github.com/"/>
+  <updated>2012-08-08T11:00:08+08:00</updated>
+  <id>http://sunny0425.github.com/</id>
+  <author>
+    <name><![CDATA[Ping.Luo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://sunny0425.github.com/blog/2012/08/08/title/"/>
+    <updated>2012-08-08T09:36:00+08:00</updated>
+    <id>http://sunny0425.github.com/blog/2012/08/08/title</id>
+    <content type="html"><![CDATA[<p>重新开个人博客，纪念一下，感谢台风“海葵”，感谢公司放假休息，早上还一不小心把自己锁起来了，挨了一早上的骂，台风把阳台上的一块玻璃吹下来了。</p>
+
+<p>不管这么样，此刻能安静的坐着弄点东西，真的非常不错！</p>
+
+<p>近期事情多多，个人&amp;公司，觉得自己性子还是有点急，更多的时候还需要认真思考，古人有云：学而不思则惘。向高手们学习！</p>
+]]></content>
+  </entry>
+  
+</feed>
